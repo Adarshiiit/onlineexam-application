@@ -1,0 +1,43 @@
+// make a docs
+
+//make good validatos for all the end points
+
+// make a judger for coding and multiple choice 
+
+// make a final judger when test completes
+
+/*
+// to generate unique id :
+
+solutionSchema.pre('save', function (next) {
+  // 保存
+  if (this.sid === -1) {
+    
+    ids
+      .generateId('Solution')
+      .then(id => {
+        this.sid = id
+      })
+      .then(next)
+  } else {
+    next()
+  }
+})
+
+
+*/
+
+
+
+
+/* 
+    TODO - emit a a event when time in test schema when test time completes, so all multiple choice 
+    for the users can be evalaues along with coding questions and final 
+    result can be published
+*/
+
+
+
+question_id = "5e9dbd4d284db47ca576ef51"
+
+test_id = "5ea0436364ee178ce84a53e9"
